@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM containerstack/alpine-arm:3.6.1
 
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 8.1.2
